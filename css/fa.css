@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: white;
+}
+
+nav {
+	background-color: rgb(122, 216, 145);
+	color: #FFFFFF;
+	bottom: 100px;
+	top: 50px;
+	left: 50px;
+	right: 500px;
+	position: absolute;
+    /*margin: 10px 10px 0px 10px;*/
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+	display: inline;
+    padding: 5px 10px 5px 10px;
+}

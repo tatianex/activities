@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link type="text/css" rel="stylesheet" href="css/fa.css">
+        <title>First Activity</title>
+        <script type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js">
+        </script>
+        <script type="text/javascript">
+            var flashvars = {};
+            var params = {mp3: "audio/mavivirmivida.mp3"};
+            swfobject.embedSWF(
+                "flash/player_mp3_1.0.0.swf",
+                "music-player", "200", "20", "8.0.0",
+                flashvars, params);
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="images/fundo4.jpg" alt="Uma foto do céu e algumas árvores" width="1350" height="400">
+            <p id="top">
+                Esta é uma página de testes, criada apenas para pôr em prática conhecimentos sobre
+                <dfn>HTML</dfn> é a linguagem de marcação para páginas web e CSS. O conjunto de
+                exercícios inclui alguns exemplos do livro do Jon Duckett sobre o assunto e um
+                trabalho do curso do Cedup exigido pelo professor Sandro.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1082813092944!2d-49.26410618495681!3d-26.83650808316046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94defc065c8ad965%3A0x14d1dcab49018f4a!2sCEDUP+Timb%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1565725973695!5m2!1spt-BR!2sbr" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <hr>
+            <ul>
+                <li><a href="aboutme.html">Biography</a></li>
+                <li><a href="https://www.github.com/tatianex/">Works</a></li>
+                <li><a href="#contato">Contact</a></li>
+            </ul>
+        </header>
+        <nav>
+            <ul>
+                <li class="selected"><a href="firstactivity.html">HOME</a></li>
+                <li><a href="food.html">ABOUT FOOD</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="form.html">FORMS</a></li>
+                <li><a href="videoaudio.html">VIDEOS/AUDIO</a></li>
+                <li><a href="mix.html">A LITTLE BIT OF ALL</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h1 id="contato">CONTATO</h1>
+        <address>
+            <p><a href="mailto:tatiane@tatianepedrelli.com.br">Email: tatiane@tatianepedrelli.com.br</a></p>
+            <p><a href="tatianepedrelli.com.br">Meu site</a></p>
+            <img src="images/tati.jpg" alt="My photo" title="A blond girl who wear glasses and likes
+            black clothes" width="185" height="200">
+        </address>
+        <hr>
+        <p><a href="#top">Top of page</a></p>
+        <footer>
+            &copy; 2019, Tatiane Pedrelli
+            <br>
+            All trademarks and registered tradem arks appearing on this site are the property
+            of their respective owner
+        </footer>
+    </body>
+</html>

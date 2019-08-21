@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/form.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="http://example.com/subscribe.php" method="GET">
+        <p>FORM</p>
+        <p>Subscribe to your email list:</p>
+        <input type="text" name="email">
+        <input type="image" src="images/subscribe.png" width="80" height="35">
+    </form><br>
+    <form action="http://www.example.com/bookings/" method="post">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart">
+        <input type="submit" value="Submit">
+    </form><br>
+    <form action="http://www.example.org/subscribe.php">
+        <p>Please enter your email adress:</p>
+        <input type="email" name="email">
+        <input type="submit" value="Submit">
+    </form><br>
+    <form action="http://www.example.org/profile.php">
+        <p>Please enter your website address:</p>
+        <input type="url" name="website">
+        <input type="submit" value="Submit">
+    </form><br>
+    <form action="http://www.example.org/search.php">
+        <p>Search:</p>
+        <input type="search" name="search" placeholder="Enter keyword">
+        <input type="submit" value="Search">
+    </form><br>
+    <form action="http.//www.example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required"></title><br></p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required">
+        <input type="submit" value="Submit">
+    </form><br>
+    <label>Age: <input type="text" name="age"></label><br>
+    <p>Gender:</p><input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m">
+    <label for="male">Male</label>
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br>
+        <input type="text" name="email"></label><br>
+        <label>Mobile:<br>
+        <input type="text" name="mobile"></label><br>
+        <label>Telephone<br>
+        <input type="text" name="telephone"></label>
+    </fieldset>
+    <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>
+            Please select your favorite genre:<br>
+            <input type="radio" name="genre" value="rock">Rock
+            <input type="radio" name="genre" value="pop">Pop
+            <input type="radio" name="genre" value="jazz">Jazz
+            <input type="radio" name="genre" value="mpb">MPB
+            <input type="radio" name="genre" value="sertanejo">Sertanejo
+            <input type="radio" name="genre" value="alternativo" checked="checked">Alternativo
+        </p>
+        <p>
+            Please select your favorite music service(s):<br>
+            <input type="checkbox" name="service" value="itunes">iTunes
+            <input type="checkbox" name="service" value="spotify" checked="checked">Spotify
+            <input type="checkbox" name="service" value="lastfm">Last.fm
+        </p>
+        <p>
+            What device do you listen to music on?
+            <select name="devices">
+                <option value="ipod">iPod</option>
+                <option value="radio">Radio</option>
+                <option value="computer" selected="selected">Computer</option>
+                <option value="smartphone">Smartphone</option>
+            </select>
+        </p>
+        <p>
+            Do you play any of the following instruments? (You can select more than one option
+            by holding down control on a PC or command key on a Mac while selecting different options.)
+            <select name="instruments" size="3" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
+                <option value="bass">Bass</option>
+            </select>
+        </p>
+    </form>
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song"><br>
+        <input type="submit" value="Upload">
+    </form>
+    <form action="http://www.example.com/add.php">
+        <button><img src="img/add.png" alt="add" width="20" height="20">Add</button>
+        <input type="hidden" name="bookmark" value="lyrics">
+    </form>
+</body>
+</html>

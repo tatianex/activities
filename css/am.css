@@ -1,0 +1,28 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url("../images/fundo.jpg");
+    text-align: justify;
+}
+
+h1 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+img {
+    float: right;
+    margin: 30px;
+}
+
+p.clear {
+    clear: both;
+    display: block;
+    height: auto;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    letter-spacing: 2,5px;
+    line-height: 1.6;
+}
