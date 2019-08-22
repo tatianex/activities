@@ -1,9 +1,16 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
     background-image: linear-gradient(orange, yellow, rgb(243, 243, 74));
 }
 
+h1 {
+    font-size: 200%;
+}
+    
+h2 {
+    font-size: 1.3em;
+}
 table {
     border: 10px solid;
     border-color: rgb(224, 129, 4);
@@ -14,6 +21,7 @@ table {
     box-shadow: 5px 10px #888888;
     padding: 5px;
 }
+
 
 ol.muffin {
     list-style: url('../images/cupcake.png');

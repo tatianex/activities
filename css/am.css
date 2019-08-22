@@ -1,14 +1,24 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
     background-image: url("../images/fundo.jpg");
     text-align: justify;
 }
 
 h1 {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 400%;
     position: absolute;
-    left: 100px;
-    top: 150px;
+    left: 80px;
+    top: 100px;
+}
+
+h2 {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 1.3em;
+    position: absolute;
+    left: 80px;
+    top: 280px;
 }
 
 img {

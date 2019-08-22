@@ -1,15 +1,26 @@
 body {
-    font-family: Arial, Verdana, sans-serif;
+	font-family: Georgia, Times, serif;
+	font-size: 16px;
     background-color: white;
+}
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 1.3em;
 }
 
 nav {
-	background-color: rgb(122, 216, 145);
-	color: #FFFFFF;
-	bottom: 100px;
-	top: 50px;
-	left: 50px;
-	right: 500px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(12, 36, 66);
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	bottom: 500px;
+	top: 30px;
+	left: 250px;
+	right: 250px;
 	position: absolute;
     /*margin: 10px 10px 0px 10px;*/
 }
